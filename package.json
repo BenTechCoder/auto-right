@@ -1,6 +1,6 @@
 {
   "name": "auto-right",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A web component for automatically updating your copyright date.",
   "type": "module",
   "main": "lib/index.js",

@@ -2,9 +2,17 @@
   "name": "auto-right",
   "version": "1.0.0",
   "description": "A web component for automatically updating your copyright date.",
-  "type":"module",
+  "type": "module",
   "main": "lib/index.js",
   "author": "Benjamin Lebron ben@lebronconsulting.tech",
   "license": "ISC",
-  "keywords": ["Copyright Date", "web component", "custom element"]
+  "keywords": [
+    "Copyright Date",
+    "web component",
+    "custom element"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BenTechCoder/auto-right.git"
+  }
 }

@@ -9,6 +9,17 @@ In a word: convenience. On a static site the copyright date usually only gets up
 Yup! As needs arise I'll be working on the component and any issues submitted but community contributions are welcome.
 
 # How to use
+```
+<script type="module" src="https://cdn.jsdelivr.net/gh/BenTechCoder/auto-right@main/lib/index.js"></script>
+```
+```
+npm i auto-right
+```
+```
+// JavaScript File 
+import { autoRight } from "auto-right";
+customElements.define("auto-right", autoRight)
+```
 
 Technically this web component can be used anywhere the current year needs to be loaded or progressively enhanced.
 You can put the current year or a server-side code snippet in between ```<auto-right>```. Please be aware the web component will replace anything you put in between the tags with the current year.
